@@ -139,6 +139,8 @@ You can also convert in the other direction, using the `unparse()` method:
 ...     }
 ... }
 >>> print(unparse(mydict, pretty=True))
+```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <response>
 	<status>good</status>
@@ -159,6 +161,8 @@ Text values for nodes can be specified with the `cdata_key` key in the python di
 ...     }
 ... }
 >>> print(xmltodict.unparse(mydict, pretty=True))
+```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <text stroke="2" color="red">This is a test</text>
 ```
